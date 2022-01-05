@@ -30,11 +30,11 @@
           Upload documents to prove the ownership of your property. An easy to use portal will help you on the way.
           Within the next few days you will be verified and your application is accepted.
         </p>
-        <v-btn color="#4CA2CD" dark>SUBMIT DOCUMENTS</v-btn>
+        <v-btn to="/documents" color="#4CA2CD" dark>SUBMIT DOCUMENTS</v-btn>
       </div>
     </v-container>
     <v-container class="tw-flex tw-items-center tw-space-x-24 tw-mt-20 tw-mb-44">
-      <div class="tw-flex-1 tw-text-center ">
+      <div class="tw-flex-1 tw-text-center">
         <h4 class="tw-text-4xl">Register Your Property</h4>
         <p class="tw-text-2xl">
           Easy to use site, helps you to create your property on the platform. After undergoing some mandatory checks of ownership of
@@ -46,8 +46,35 @@
         <v-img max-width="696" src="@/assets/img/home2.png"></v-img>
       </div>
     </v-container>
-    <div class="tw-bg-primary">
-
+    <div class="tw-bg-primary tw-pb-60">
+      <v-container>
+        <div
+          class="md:tw-max-w-5xl mx-auto tw-border-2 tw-px-11 tw-pt-11 tw-pb-24 tw--mt-40 tw-bg-white tw-border-black tw-relative p"
+        >
+          <div class="tw-font-bold tw-text-45px tw-text-center tw-flex-1">Property can be bid upon</div>
+          <div class="tw-flex">
+            <div class="tw-flex-1 tw-pt-28">
+              <p>
+                Once you are verified for KYC/AML and ownership is proven, you are now ready to accept bids from
+                interested buyers. Bids can be accepted / rejected within a time frame. And money is instantly transferred to your account.
+              </p>
+              <div class="tw-text-center tw-pt-64">
+                <v-btn x-large dark class="offers-button tw-mx-auto" rounded>
+                  <span class="tw-text-3xl tw-font-bold tw-px-6">My offers</span>
+                </v-btn>
+              </div>
+            </div>
+            <div class="tw-flex-1">
+              <v-img
+                class="tw-absolute tw-top-72"
+                max-width="723"
+                contain
+                src="@/assets/img/home-listing.png"
+              ></v-img>
+            </div>
+          </div>
+        </div>
+      </v-container>
     </div>
   </div>
 </template>
@@ -92,5 +119,9 @@ export default {
   font-weight: 700;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.offers-button{
+  background: linear-gradient(180deg, #4CA2CD 0%, #4CA2CD 42.4%, #004C72 100%);
+  color: white;
 }
 </style>

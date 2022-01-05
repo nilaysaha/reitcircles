@@ -17,7 +17,7 @@
           <template v-slot:activator="{ on, attrs }">
             <div v-bind="attrs" v-on="on">
               assets
-              <v-icon>mdi-dots-vertical</v-icon>
+              <v-icon>mdi-menu-down</v-icon>
             </div>
           </template>
 
@@ -31,7 +31,7 @@
           <template v-slot:activator="{ on, attrs }">
             <div v-bind="attrs" v-on="on">
               Settings
-              <v-icon>mdi-dots-vertical</v-icon>
+              <v-icon>mdi-menu-down</v-icon>
             </div>
           </template>
 
@@ -45,7 +45,7 @@
           <template v-slot:activator="{ on, attrs }">
             <div v-bind="attrs" v-on="on">
               Admin
-              <v-icon>mdi-dots-vertical</v-icon>
+              <v-icon>mdi-menu-down</v-icon>
             </div>
           </template>
 
@@ -63,18 +63,23 @@
     <v-main>
       <router-view class />
     </v-main>
+    <Footer />
   </v-app>
 </template>
 
 <script>
+import Footer from '@/components/Footer.vue'
 export default {
+  components: {
+    Footer
+  },
   data: () => ({
     drawer: false,
     items: [
       { title: 'Click Me' },
       { title: 'Click Me' },
       { title: 'Click Me' },
-      { title: 'Click Me 2' },
+      { title: 'Click Me' },
     ],
   }),
 }
