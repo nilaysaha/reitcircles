@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import DefaultLayout from "@/layout/default.vue";
 import Documents from "../views/Documents.vue";
+import Marketplace from "../views/Marketplace.vue";
+
 
 Vue.use(VueRouter);
 
@@ -21,6 +23,11 @@ const routes = [
 				path: "/documents",
 				name: "document",
 				component: Documents,
+			},
+			{
+				path: "/marketplace",
+				name: "Marketplace",
+				component: Marketplace,
 			},
 		],
 	},
