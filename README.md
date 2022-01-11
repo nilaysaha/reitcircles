@@ -22,3 +22,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 
 Cd test-server ,npm install ,for run the server npm run dev 
+
+
+## routing
+
+kyc document page: /documents
+marketplace: /marketplace
+offers:/offers
+
