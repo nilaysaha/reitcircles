@@ -1,44 +1,47 @@
 <template>
-  <div>
-    <!-- <div style="position: relative;" class="border-gradient border-gradient-grey">
-      <img class="footer-img mb-n2" src="@/assets/footer.png" alt srcset />
-
-      <div class="group-image">
-        <img class="img" src="@/assets/Group1.png" alt srcset />
-        <img class="img" src="@/assets/Group2.png" alt srcset />
+  <div class="tw-bg-white">
+    <div class="tw-bg-primary tw-flex tw-space-x-44 tw-items-center tw-py-20">
+      <div>
+        <v-img src="@/assets/img/logo.png"></v-img>
+      </div>
+      <div class="tw-flex tw-space-x-96 tw-text-sm tw-text-white">
+        <div class="tw-flex tw-flex-col tw-space-y-2">
+          <span>Dashboard</span>
+          <span>Listings</span>
+          <span>Offters</span>
+        </div>
+        <div class="tw-flex tw-flex-col tw-space-y-2">
+          <span>Settinng</span>
+          <span>Wallet</span>
+          <span>Profile</span>
+        </div>
       </div>
     </div>
-    <div class="footer-context">
-      <v-container class="d-flex align-center">
-        <div class="d-flex align-center">
-          <img alt=" Logo" src="@/assets/logo.png" transition="scale-transition" style="width:40px" />
-          <span class="ml-4">Cookie Policy</span>
-          <v-divider color="white" class="ml-4 mr-2 my-4" vertical></v-divider>
-          <span>Contact</span>
-          <v-divider color="white" class="ml-4 mr-2 my-4" vertical></v-divider>
+    <v-container class="tw-flex tw-justify-between tw-items-center tw-py-8 tw-text-secondary">
+      <div>Copyright 2021 Reitcircles All rights reserved</div>
+      <div class="tw-flex tw-space-x-2">
+        <span>Privacy policy</span>
+        <span>Terms & condition</span>
+        <span>Legal policy</span>
+      </div>
+      <div class="tw-flex tw-items-center">
+        <span>Follow us on</span>
+        <v-btn icon>
+          <v-icon>mdi-facebook</v-icon>
+        </v-btn>
+        <v-btn icon>
+          <v-icon>mdi-twitter</v-icon>
+        </v-btn>
 
-          <span>Term of Use</span>
-          <v-divider color="white" class="ml-4 mr-2 my-4" vertical></v-divider>
+        <v-btn icon>
+          <v-icon>mdi-instagram</v-icon>
+        </v-btn>
 
-          <span>Imprint</span>
-          <v-divider color="white" class="ml-4 mr-2 my-4" vertical></v-divider>
-
-          <span>Data Protection</span>
-        </div>
-        <v-spacer></v-spacer>
-
-        <div
-          :class="$vuetify.breakpoint.mdAndUp?'logo-section':''"
-          class="d-flex align-center justify-space-between"
-        >
-          <img src="@/assets/discord-footer.png" alt />
-          <img src="@/assets/facebook.png" alt />
-          <img src="@/assets/instagram.png" alt />
-          <img src="@/assets/twitter.png" alt />
-          © CYAClub, All rights reserved
-        </div>
-      </v-container>
-    </div> -->
+        <v-btn icon>
+          <v-icon>mdi-linkedin</v-icon>
+        </v-btn>
+      </div>
+    </v-container>
   </div>
 </template>
 
