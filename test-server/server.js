@@ -4,6 +4,18 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
+require('dotenv').config()
+
+if (process.env.RUN_ENV =="production"){    
+    require('dotenv').config({ path: 'config/.env' })
+}
+
+if (process.env.RUN_ENV =="development"){    
+    require('dotenv').config({ path: 'config/.env_local' })
+}
+
+console.log(process.env.API_URL)
+
 app.use(cors());
 const documents = JSON.parse(
 	fs.readFileSync(path.resolve(__dirname, "./data/json/documents.json"), "utf-8")
