@@ -1,0 +1,17 @@
+## routing
+
+kyc document page: /documents
+marketplace: /marketplace
+offers:/offers
+marketplace: /marketplace
+OffersDescription :/offer-description"
+      {
+				path: "/marketplace",
+				name: "marketplace",
+				component: Marketplace,
+			},
+			{
+				path: "/offer-description",
+				name: "offer-description",
+				component: OffersDescription,
+			},
