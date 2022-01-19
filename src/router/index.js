@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import DefaultLayout from "@/layout/default.vue";
 import Documents from "../views/Documents.vue";
 import Marketplace from "../views/Marketplace.vue";
+import OffersDescription from "../views/OffersDescription.vue";
 
 
 Vue.use(VueRouter);
@@ -24,10 +25,15 @@ const routes = [
 				name: "document",
 				component: Documents,
 			},
-			{
+      {
 				path: "/marketplace",
-				name: "Marketplace",
+				name: "marketplace",
 				component: Marketplace,
+			},
+			{
+				path: "/offer-description",
+				name: "offer-description",
+				component: OffersDescription,
 			},
 		],
 	},
