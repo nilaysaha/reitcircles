@@ -91,6 +91,7 @@
 		<v-main>
 			<router-view class />
 		</v-main>
+		<Footer />
 	</v-app>
 </template>
 

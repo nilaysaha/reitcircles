@@ -20,7 +20,7 @@
 			</div>
 		</v-carousel>
 		<h4
-			class="3xl:tw-text-4xl tw-font-bold tw-text-3xl tw-my-9 tw-text-center tw-block  md:tw-hidden"
+			class="3xl:tw-text-4xl tw-font-bold tw-text-3xl tw-my-9 tw-text-center tw-block md:tw-hidden"
 		>Register Your Property</h4>
 
 		<v-container
@@ -46,14 +46,14 @@
 			</div>
 			<div class="tw-flex-1 tw-text-center">
 				<h4 class="tw-text-4xl tw-hidden md:tw-block">Submit Documents for Online verification</h4>
-				<p class="tw-text-2xl">
-					In order to use the online portal you need to undergo a mandatory KYC process that will verify your identity online. It is an easy, automated process and can be completed in few easy steps.
-				</p>
+				<p
+					class="tw-text-2xl"
+				>In order to use the online portal you need to undergo a mandatory KYC process that will verify your identity online. It is an easy, automated process and can be completed in few easy steps.</p>
 				<v-btn to="/documents" color="#4CA2CD" dark>Start KYC</v-btn>
 			</div>
 		</v-container>
 
-		<!-- <div class="tw-bg-primary tw-pb-60">
+		<div class="tw-bg-primary tw-pb-60 tw-mb-12 3xl:tw-mb-20">
 			<v-container>
 				<div
 					class="md:tw-max-w-5xl mx-auto tw-border-2 tw-px-11 tw-pt-11 tw-pb-24 tw--mt-40 tw-bg-white tw-border-black tw-relative p"
@@ -77,7 +77,7 @@
 					</div>
 				</div>
 			</v-container>
-		</div>-->
+		</div>
 	</div>
 </template>
 
