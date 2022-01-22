@@ -1,5 +1,5 @@
 <template>
-	<v-app id="inspire">
+	<v-app id="inspire" class="tw-bg-E5">
 		<v-navigation-drawer v-model="drawer" app>
 			<!--  -->
 			<v-list>
@@ -25,12 +25,18 @@
 			</v-list>
 		</v-navigation-drawer>
 
-		<v-app-bar  color="#4CA2CD" dark elevation="0" height="80px" app>
+		<v-app-bar color="#4CA2CD" dark elevation="0" height="80px" app>
 			<div>
-				<v-img width="294" src="@/assets/img/logo.png"></v-img>
+				<v-img
+					width="294"
+					src="https://reitcircles.s3.eu-central-1.amazonaws.com/rc_logos_final/png_images/w2.2.png"
+				></v-img>
 			</div>
 			<v-spacer class="tw-hidden md:tw-block"></v-spacer>
-			<v-app-bar-nav-icon class="tw-text-secondary tw-block md:tw-hidden tw-ml-auto" @click="drawer = !drawer"></v-app-bar-nav-icon>
+			<v-app-bar-nav-icon
+				class="tw-text-secondary tw-block md:tw-hidden tw-ml-auto"
+				@click="drawer = !drawer"
+			></v-app-bar-nav-icon>
 
 			<div class="tw-hidden md:tw-flex tw-space-x-12 tw-items-center tw-justify-between">
 				<span>Home</span>
@@ -44,8 +50,8 @@
 					</template>
 
 					<v-list>
-						<v-list-item v-for="(item, i) in items" :key="i">
-							<v-list-item-title>{{ item.title }}</v-list-item-title>
+						<v-list-item>
+							<v-list-item-title>Profile</v-list-item-title>
 						</v-list-item>
 					</v-list>
 				</v-menu>
@@ -58,8 +64,8 @@
 					</template>
 
 					<v-list>
-						<v-list-item v-for="(item, i) in items" :key="i">
-							<v-list-item-title>{{ item.title }}</v-list-item-title>
+						<v-list-item>
+							<v-list-item-title>Wallet</v-list-item-title>
 						</v-list-item>
 					</v-list>
 				</v-menu>

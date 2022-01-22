@@ -12,8 +12,8 @@
 			<div class="centered">
 				<span class="tw-block tw-text-2xl 3xl:tw-text-7xl">It is easier</span>
 				<span class="tw-block tw-text-sm md:tw-text-base 3xl:tw-text-4xl">THAN EVER</span>
-				<span class="tw-block tw-text-3xl 3xl:tw-text-4xl">Raise Capital</span>
-				<span class="tw-block tw-text-sm md:tw-text-base 3xl:tw-text-4xl">USING YOUR REAL STATE</span>
+				<span class="tw-block tw-text-3xl 3xl:tw-text-4xl">RAISE CAPITAL</span>
+				<span class="tw-block tw-text-sm md:tw-text-base 3xl:tw-text-4xl">USING YOUR REAL ESTATE</span>
 				<v-btn class="tw-mt-20" color="#4CA2CD" dark>
 					<span class="tw-px-40">Register, Document & Sell online</span>
 				</v-btn>
@@ -47,10 +47,9 @@
 			<div class="tw-flex-1 tw-text-center">
 				<h4 class="tw-text-4xl tw-hidden md:tw-block">Submit Documents for Online verification</h4>
 				<p class="tw-text-2xl">
-					Upload documents to prove the ownership of your property. An easy to use portal will help you on the way.
-					Within the next few days you will be verified and your application is accepted.
+					In order to use the online portal you need to undergo a mandatory KYC process that will verify your identity online. It is an easy, automated process and can be completed in few easy steps.
 				</p>
-				<v-btn to="/documents" color="#4CA2CD" dark>SUBMIT DOCUMENTS</v-btn>
+				<v-btn to="/documents" color="#4CA2CD" dark>Start KYC</v-btn>
 			</div>
 		</v-container>
 

@@ -58,7 +58,7 @@
                             outlined
                             color="cyan"
                         ></v-select>
-                        <v-select
+                        <!-- <v-select
                             class="mx-2 tw-w-full"
                             :items="items"
                             label="Baths"
@@ -66,7 +66,7 @@
                             v-model="baths"
                             outlined
                             color="cyan"
-                        ></v-select>
+                        ></v-select> -->
                         <v-select
                             class="ml-2 mr-8 tw-w-full"
                             :items="items"
@@ -123,7 +123,7 @@
                 outlined
                 color="cyan"
             ></v-select>
-            <v-select
+            <!-- <v-select
                 class="mx-2"
                 :items="items"
                 label="Baths"
@@ -131,7 +131,7 @@
                 v-model="baths"
                 outlined
                 color="cyan"
-            ></v-select>
+            ></v-select> -->
             <v-select
                 class="ml-2 mr-8"
                 :items="items"

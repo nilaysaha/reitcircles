@@ -22,7 +22,7 @@ const actions = {
 	getDocuments({ commit }) {
 		return handleAction(Document.get(), (res) => {
 			console.log(res);
-			commit("SET", { documents: res.data });
+			commit("SET", { documents: res });
 			console.log(res);
 			console.log("get buyer", "console from get buyer");
 		});
