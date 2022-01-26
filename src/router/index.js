@@ -5,44 +5,51 @@ import DefaultLayout from "@/layout/default.vue";
 import Documents from "../views/Documents.vue";
 import Marketplace from "../views/Marketplace.vue";
 import OffersDescription from "../views/OffersDescription.vue";
+import OfferCreation from "../views/OfferCreation.vue";
+
 
 
 Vue.use(VueRouter);
 
 const routes = [
-	{
-		path: "/",
-		component: DefaultLayout,
-		meta: { requiresAuth: true },
-		children: [
-			{
-				path: "",
-				name: "Home",
-				component: Home,
-			},
-			{
-				path: "/documents",
-				name: "document",
-				component: Documents,
-			},
+  {
+    path: "/",
+    component: DefaultLayout,
+    meta: { requiresAuth: true },
+    children: [
       {
-				path: "/marketplace",
-				name: "marketplace",
-				component: Marketplace,
-			},
-			{
-				path: "/offer-description",
-				name: "offer-description",
-				component: OffersDescription,
-			},
-		],
-	},
+        path: "",
+        name: "Home",
+        component: Home,
+      },
+      {
+        path: "/documents",
+        name: "document",
+        component: Documents,
+      },
+      {
+        path: "/marketplace",
+        name: "marketplace",
+        component: Marketplace,
+      },
+      {
+        path: "/offer-description",
+        name: "offer-description",
+        component: OffersDescription,
+      },
+      {
+        path: "/offer-creation",
+        name: "offer-creation",
+        component: OfferCreation,
+      },
+    ],
+  },
 ];
 
 const router = new VueRouter({
-	mode: "history",
-	base: process.env.BASE_URL,
-	routes,
+  mode: "history",
+  base: process.env.BASE_URL,
+  routes,
 });
 
 export default router;

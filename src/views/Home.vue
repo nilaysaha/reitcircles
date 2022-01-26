@@ -45,7 +45,7 @@
         <v-img max-width="696" src="@/assets/img/home2.png"></v-img>
       </div>
     </v-container>
-    <div class="tw-bg-primary tw-pb-60 3xl:tw-mb-11  tw-mb-8">
+    <div class="tw-bg-primary tw-pb-60 3xl:tw-mb-11  tw-mb-10">
       <v-container>
         <div
           class="md:tw-max-w-5xl mx-auto tw-border-2 tw-px-11 tw-pt-11 tw-pb-24 tw--mt-40 tw-bg-white tw-border-black tw-relative p"
