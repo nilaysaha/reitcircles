@@ -238,6 +238,7 @@
 						dense
 						v-model="bid.equityWanted"
 						solo
+						prefix="%"
 					></v-text-field>
 				</div>
 				<div>
@@ -248,6 +249,7 @@
 						dense
 						v-model="bid.equityWanted"
 						solo
+						prefix="$"
 					></v-text-field>
 				</div>
 				<div class="tw-mb-4">
@@ -258,6 +260,7 @@
 						dense
 						v-model="bid.equityWanted"
 						solo
+						prefix="$"
 					></v-text-field>
 				</div>
 				<div>

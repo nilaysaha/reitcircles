@@ -1,5 +1,5 @@
 <template>
-	<v-app id="inspire" class="tw-bg-E5">
+	<v-app id="inspire" class="tw-bg-white">
 		<v-navigation-drawer class="tw-hidden" v-model="drawer" app>
 			<!--  -->
 			<v-list>
@@ -88,7 +88,7 @@
 			<div class="tw-mr-12 tw-hidden md:tw-block">Login/Register</div>
 		</v-app-bar>
 
-		<v-main class="tw-bg-E5">
+		<v-main class="">
 			<router-view class />
 		</v-main>
 		<Footer />
