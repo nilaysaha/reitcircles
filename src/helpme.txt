@@ -1,0 +1,6 @@
+routing and figma design file
+
+home : '/' figma number:1
+documents:'/documents' figma:number 2-5
+marketplace:'/marketplace' figma:6
+offer-description:'/offer-description' figma:7,20
