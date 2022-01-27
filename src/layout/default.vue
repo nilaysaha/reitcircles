@@ -88,7 +88,7 @@
 			<div class="tw-mr-12 tw-hidden md:tw-block">Login/Register</div>
 		</v-app-bar>
 
-		<v-main class="">
+		<v-main class="tw-bg-E5">
 			<router-view class />
 		</v-main>
 		<Footer />
